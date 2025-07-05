@@ -9,8 +9,6 @@ import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
-import product1 from './product1.jpg';
-import product2 from './product2.jpg';
 import avatar from './avatar.jpg';
 import avatar2 from './avatar2.jpg';
 import avatar3 from './avatar3.png';
@@ -172,52 +170,15 @@ const areaChartData = [
 ];
 
 export const areaCustomSeries = [
-  {
-    dataSource: areaChartData[0],
-    xName: 'x',
-    yName: 'y',
-    name: 'USA',
-    opacity: '0.8',
-    type: 'SplineArea',
-    width: '2',
-
-  },
-  {
-    dataSource: areaChartData[1],
-    xName: 'x',
-    yName: 'y',
-    name: 'France',
-    opacity: '0.8',
-    type: 'SplineArea',
-    width: '2',
-  },
-  {
-    dataSource: areaChartData[2],
-    xName: 'x',
-    yName: 'y',
-    name: 'Germany',
-    opacity: '0.8',
-    type: 'SplineArea',
-    width: '2',
-  }
+  { dataSource: areaChartData[0], xName: 'x', yName: 'y', name: 'USA', opacity: '0.8', type: 'SplineArea', width: '2', },
+  { dataSource: areaChartData[1], xName: 'x', yName: 'y', name: 'France', opacity: '0.8', type: 'SplineArea', width: '2', },
+  { dataSource: areaChartData[2], xName: 'x', yName: 'y', name: 'Germany', opacity: '0.8', type: 'SplineArea', width: '2', }
 ];
 
 export const barChartData = [
-  [
-    { x: 'USA', y: 46 },
-    { x: 'GBR', y: 27 },
-    { x: 'CHN', y: 26 },
-  ],
-  [
-    { x: 'USA', y: 37 },
-    { x: 'GBR', y: 23 },
-    { x: 'CHN', y: 18 },
-  ],
-  [
-    { x: 'USA', y: 38 },
-    { x: 'GBR', y: 17 },
-    { x: 'CHN', y: 26 },
-  ],
+  [ { x: 'USA', y: 46 }, { x: 'GBR', y: 27 }, { x: 'CHN', y: 26 }, ],
+  [ { x: 'USA', y: 37 }, { x: 'GBR', y: 23 }, { x: 'CHN', y: 18 }, ],
+  [ { x: 'USA', y: 38 }, { x: 'GBR', y: 17 }, { x: 'CHN', y: 26 }, ],
 ];
 
 export const barCustomSeries = [
@@ -897,97 +858,6 @@ export const employeesData = [
     EmployeeImage:
     avatar3,
   },
-  {
-    EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar3,
-  },
-  {
-    EmployeeID: 3,
-    Name: 'Iulia Albu',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar4,
-  },
-  {
-    EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 5,
-    Name: 'Omar Darobe',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 4,
-    Name: 'Penjani Inyene',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 5,
-    Name: 'Miron Vitold',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 1,
-    Name: 'Nancy Davolio',
-    Title: 'Sales Representative',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-    avatar2,
-
-  },
-  {
-    EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar3,
-  },
-  {
-    EmployeeID: 3,
-    Name: 'Iulia Albu',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar4,
-  },
 ];
 
 export const ordersData = [
@@ -1002,61 +872,6 @@ export const ordersData = [
     StatusBg: '#FB9678',
     ProductImage:
       product6,
-  },
-  {
-    OrderID: 345653,
-    CustomerName: 'Carson Darrin',
-    TotalAmount: 56.34,
-    OrderItems: 'Butter Scotch',
-    Location: 'Delhi',
-    Status: 'complete',
-    StatusBg: '#8BE78B',
-    ProductImage:
-      product5,
-  },
-  {
-    OrderID: 390457,
-    CustomerName: 'Fran Perez',
-    TotalAmount: 93.31,
-    OrderItems: 'Candy Gucci',
-    Location: 'New York',
-    Status: 'active',
-    StatusBg: '#03C9D7',
-    ProductImage:
-      product7,
-  },
-  {
-    OrderID: 893486,
-    CustomerName: 'Anika Viseer',
-    TotalAmount: 93.31,
-    OrderItems: 'Night Lamp',
-    Location: 'Germany',
-    Status: 'canceled',
-    StatusBg: '#FF5C8E',
-    ProductImage:
-      product4,
-  },
-  {
-    OrderID: 748975,
-    CustomerName: 'Miron Vitold',
-    TotalAmount: 23.99,
-    OrderItems: 'Healthcare Erbology',
-    Location: 'Spain',
-    Status: 'rejected',
-    StatusBg: 'red',
-    ProductImage:
-    product1,
-  },
-  {
-    OrderID: 94757,
-    CustomerName: 'Omar Darobe',
-    TotalAmount: 95.99,
-    OrderItems: 'Makeup Lancome Rouge',
-    Location: 'USA',
-    Status: 'canceled',
-    StatusBg: '#FF5C8E',
-    ProductImage:
-      product2,
   },
 ];
 
@@ -1140,118 +955,6 @@ export const scheduleData = [
     StartTime: '2021-01-20T05:30:00.000Z',
     EndTime: '2021-01-20T07:30:00.000Z',
     CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 11,
-    Subject: 'Best Photography 2021',
-    Location: 'London',
-    StartTime: '2021-01-21T04:00:00.000Z',
-    EndTime: '2021-01-21T05:30:00.000Z',
-    CategoryColor: '#00bdae',
-  },
-  {
-    Id: 12,
-    Subject: 'Smarter Puppies',
-    Location: 'Sweden',
-    StartTime: '2021-01-08T04:30:00.000Z',
-    EndTime: '2021-01-08T06:00:00.000Z',
-    CategoryColor: '#f57f17',
-  },
-  {
-    Id: 13,
-    Subject: 'Myths of Andromeda Galaxy',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-06T05:00:00.000Z',
-    EndTime: '2021-01-06T07:00:00.000Z',
-    CategoryColor: '#1aaa55',
-  },
-  {
-    Id: 14,
-    Subject: 'Aliens vs Humans',
-    Location: 'Research Center of USA',
-    StartTime: '2021-01-05T04:30:00.000Z',
-    EndTime: '2021-01-05T06:00:00.000Z',
-    CategoryColor: '#357cd2',
-  },
-  {
-    Id: 15,
-    Subject: 'Facts of Humming Birds',
-    Location: 'California',
-    StartTime: '2021-01-19T04:00:00.000Z',
-    EndTime: '2021-01-19T05:30:00.000Z',
-    CategoryColor: '#7fa900',
-  },
-  {
-    Id: 16,
-    Subject: 'Sky Gazers',
-    Location: 'Alaska',
-    StartTime: '2021-01-22T05:30:00.000Z',
-    EndTime: '2021-01-22T07:30:00.000Z',
-    CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 17,
-    Subject: 'The Cycle of Seasons',
-    Location: 'Research Center of USA',
-    StartTime: '2021-01-11T00:00:00.000Z',
-    EndTime: '2021-01-11T02:00:00.000Z',
-    CategoryColor: '#00bdae',
-  },
-  {
-    Id: 18,
-    Subject: 'Space Galaxies and Planets',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-11T11:30:00.000Z',
-    EndTime: '2021-01-11T13:00:00.000Z',
-    CategoryColor: '#f57f17',
-  },
-  {
-    Id: 19,
-    Subject: 'Lifecycle of Bumblebee',
-    Location: 'San Fransisco',
-    StartTime: '2021-01-14T00:30:00.000Z',
-    EndTime: '2021-01-14T02:00:00.000Z',
-    CategoryColor: '#7fa900',
-  },
-  {
-    Id: 20,
-    Subject: 'Alien Civilization',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-14T10:30:00.000Z',
-    EndTime: '2021-01-14T12:30:00.000Z',
-    CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 21,
-    Subject: 'Alien Civilization',
-    Location: 'Space Center USA',
-    StartTime: '2021-01-10T08:30:00.000Z',
-    EndTime: '2021-01-10T10:30:00.000Z',
-    CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 22,
-    Subject: 'The Cycle of Seasons',
-    Location: 'Research Center of USA',
-    StartTime: '2021-01-12T09:00:00.000Z',
-    EndTime: '2021-01-12T10:30:00.000Z',
-    CategoryColor: '#00bdae',
-  },
-  {
-    Id: 23,
-    Subject: 'Sky Gazers',
-    Location: 'Greenland',
-    StartTime: '2021-01-15T09:00:00.000Z',
-    EndTime: '2021-01-15T10:30:00.000Z',
-    CategoryColor: '#ea7a57',
-  },
-  {
-    Id: 24,
-    Subject: 'Facts of Humming Birds',
-    Location: 'California',
-    StartTime: '2021-01-16T07:00:00.000Z',
-    EndTime: '2021-01-16T09:00:00.000Z',
-    CategoryColor: '#7fa900',
   },
 ];
 
@@ -1507,48 +1210,6 @@ export const kanbanData = [
     Color: '#E64A19',
     ClassName: 'e-bug, e-low, e-steven-walker',
   },
-  {
-    Id: 'Task 6',
-    Title: 'Task - 29007',
-    Status: 'Validate',
-    Summary: 'Validate new requirements',
-    Type: 'Improvement',
-    Priority: 'Low',
-    Tags: 'Validation',
-    Estimate: 1.5,
-    Assignee: 'Robert King',
-    RankId: 1,
-    Color: '#673AB8',
-    ClassName: 'e-improvement, e-low, e-robert-king',
-  },
-  {
-    Id: 'Task 7',
-    Title: 'Task - 29009',
-    Status: 'Review',
-    Summary: 'Fix the issues reported in Safari browser.',
-    Type: 'Bug',
-    Priority: 'Critical',
-    Tags: 'Fix,Safari',
-    Estimate: 1.5,
-    Assignee: 'Nancy Davloio',
-    RankId: 2,
-    Color: '#E64A19',
-    ClassName: 'e-bug, e-release, e-nancy-davloio',
-  },
-  {
-    Id: 'Task 25',
-    Title: 'Task - 29031',
-    Status: 'Testing',
-    Summary: 'Fix the issues reported in Safari browser.',
-    Type: 'Bug',
-    Priority: 'Critical',
-    Tags: 'Fix,Safari',
-    Estimate: 1.5,
-    Assignee: 'Nancy Davloio',
-    RankId: 2,
-    Color: '#E64A19',
-    ClassName: 'e-bug, e-release, e-nancy-davloio',
-  },
 ];
 
 export const financialChartData = [
@@ -1575,94 +1236,6 @@ export const financialChartData = [
     low: 81.4885,
     close: 81.8543,
     volume: 1221746066,
-  },
-  {
-    x: new Date('2012-04-23'),
-    open: 81.5157,
-    high: 88.2857,
-    low: 79.2857,
-    close: 86.1428,
-    volume: 965935749,
-  },
-  {
-    x: new Date('2012-04-30'),
-    open: 85.4,
-    high: 85.4857,
-    low: 80.7385,
-    close: 80.75,
-    volume: 615249365,
-  },
-  {
-    x: new Date('2012-05-07'),
-    open: 80.2143,
-    high: 82.2685,
-    low: 79.8185,
-    close: 80.9585,
-    volume: 541742692,
-  },
-  {
-    x: new Date('2012-05-14'),
-    open: 80.3671,
-    high: 81.0728,
-    low: 74.5971,
-    close: 75.7685,
-    volume: 708126233,
-  },
-  {
-    x: new Date('2012-05-21'),
-    open: 76.3571,
-    high: 82.3571,
-    low: 76.2928,
-    close: 80.3271,
-    volume: 682076215,
-  },
-  {
-    x: new Date('2012-05-28'),
-    open: 81.5571,
-    high: 83.0714,
-    low: 80.0743,
-    close: 80.1414,
-    volume: 480059584,
-  },
-  {
-    x: new Date('2012-06-04'),
-    open: 80.2143,
-    high: 82.9405,
-    low: 78.3571,
-    close: 82.9028,
-    volume: 517577005,
-  },
-  {
-    x: new Date('2012-06-11'),
-    open: 83.96,
-    high: 84.0714,
-    low: 80.9571,
-    close: 82.0185,
-    volume: 499693120,
-  },
-  {
-    x: new Date('2012-06-18'),
-    open: 81.5657,
-    high: 84.2857,
-    low: 81.4814,
-    close: 83.1571,
-    volume: 442172142,
-  },
-  {
-    x: new Date('2017-09-11'),
-    open: 160.5,
-    high: 163.96,
-    low: 157.91,
-    close: 159.88,
-    volume: 220431100,
-  },
-  {
-    x: new Date('2017-09-18'),
-    open: 160.11,
-    high: 160.5,
-    low: 157.995,
-    close: 158.67,
-    volume: 27939544,
   },
 ];
 export const PyramidData = [
