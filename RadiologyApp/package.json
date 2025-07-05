@@ -26,6 +26,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,6 +49,7 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://comodo-teknoloji-ticaret-ltd-sti.github.io/radiology",
   "devDependencies": {
     "autoprefixer": "^10.4.2",
     "eslint": "^8.9.0",
@@ -55,6 +58,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.19"
   }
