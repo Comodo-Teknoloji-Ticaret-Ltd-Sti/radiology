@@ -199,7 +199,7 @@ export const areaCustomSeries = [
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
-  },
+  }
 ];
 
 export const barChartData = [
@@ -430,14 +430,14 @@ export const employeesGrid = [
     width: '125',
     textAlign: 'Center' },
 ];
-
 export const links = [
   {
-    title: 'Dashboard',
+    title: 'Menü',
     links: [
       {
-        name: 'ecommerce',
+        name: 'anasayfa',
         icon: <FiShoppingBag />,
+        label: 'Anasayfa',
       },
     ],
   },
@@ -445,39 +445,41 @@ export const links = [
     title: 'Sayfalar',
     links: [
       {
-        name: 'radyo',
+        name: 'radyoloji1',
         icon: <IoMdContacts />,
       },
       {
-        name: 'radyolog',
+        name: 'radyoloji2',
         icon: <RiContactsLine />,
       },
     ],
   },
   {
-    title: 'Apps',
+    title: 'Araçlar',
     links: [
       {
-        name: 'calendar',
+        name: 'takvim',
         icon: <AiOutlineCalendar />,
+        label: 'Takvim',
       },
       {
-        name: 'kanban',
+        name: 'notlar',
         icon: <BsKanban />,
+        label: 'Notlarım',
       },
     ],
   },
   {
-    title: 'Charts',
+    title: 'Grafikler',
     links: [
       {
-        name: 'pyramid',
+        name: 'kalori',
         icon: <GiLouvrePyramid />,
+        label: 'Kalori Takibi',
       },
     ],
-  },
+  }
 ];
-
 export const cartData = [
   {
     image:

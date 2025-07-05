@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Ecommerce, Calendar, Pyramid, Kanban, Radyo, Radyolog } from './pages';
+import { Anasayfa, Calendar, Pyramid, Kanban, Radyo, Radyolog } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -65,15 +65,15 @@ const App = () => {
 
               <Routes>
                 {/* dashboard  */}
-                <Route path="/" element={(<Ecommerce />)} />
-                <Route path="/ecommerce" element={(<Ecommerce />)} />
+                <Route path="/" element={(<Anasayfa />)} />
+                <Route path="/anasayfa" element={(<Anasayfa />)} />
 
                 {/* pages  */}
-                <Route path="/radyo" element={<Radyo />} />
-                <Route path="/radyolog" element={<Radyolog />} />
+                <Route path="/radyoloji1" element={<Radyo />} />
+                <Route path="/radyoloji2" element={<Radyolog />} />
                 {/* apps  */}
-                <Route path="/kanban" element={<Kanban />} />
-                <Route path="/calendar" element={<Calendar />} />
+                <Route path="/notlar" element={<Kanban />} />
+                <Route path="/takvim" element={<Calendar />} />
                 {/* <Route path="/orders" element={<Orders />} /> */}
                 {/* <Route path="/editor" element={<Editor />} /> */}
                 {/* <Route path="/color-picker" element={<ColorPicker />} /> */}
@@ -84,7 +84,7 @@ const App = () => {
                 {/* <Route path="/pie" element={<Pie />} /> */}
                 {/* <Route path="/financial" element={<Financial />} /> */}
                 {/* <Route path="/color-mapping" element={<ColorMapping />} /> */}
-                <Route path="/pyramid" element={<Pyramid />} />
+                <Route path="/kalori" element={<Pyramid />} />
                 {/* <Route path="/stacked" element={<Stacked />} /> */}
 
               </Routes>
