@@ -13,9 +13,13 @@
     "@syncfusion/ej2-react-popups": "^19.4.52",
     "@syncfusion/ej2-react-richtexteditor": "^19.4.50",
     "@syncfusion/ej2-react-schedule": "^19.4.50",
+    "jspdf": "^3.0.1",
+    "konva": "^8.4.3",
+    "lucide-react": "^0.525.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
+    "react-konva": "^17.0.2-6",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0"
   },

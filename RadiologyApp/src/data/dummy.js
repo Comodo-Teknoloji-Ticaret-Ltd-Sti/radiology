@@ -480,14 +480,14 @@ export const links = [
     ],
   },
   {
-    title: 'Pages',
+    title: 'Sayfalar',
     links: [
       {
-        name: 'employees',
+        name: 'radyo',
         icon: <IoMdContacts />,
       },
       {
-        name: 'customers',
+        name: 'radyolog',
         icon: <RiContactsLine />,
       },
     ],
