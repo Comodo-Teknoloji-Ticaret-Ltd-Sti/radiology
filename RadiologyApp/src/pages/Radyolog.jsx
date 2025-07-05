@@ -536,9 +536,9 @@ const ProfessionalRadiologyViewer = () => {
 
 
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl min-h-screen">
             {/* Header */}
-            <div className="bg-white shadow-sm p-4 mb-4">
+            <div className="bg-white shadow-sm p-4 mb-4 rounded-2xl">
                 <div className="max-w-full mx-auto flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
                     <div className="text-center sm:text-left">
                         <h1 className="text-xl sm:text-2xl font-bold text-gray-800">Radyoloji Görüntü Yönetim Sistemi</h1>
@@ -559,9 +559,9 @@ const ProfessionalRadiologyViewer = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row h-[calc(100vh-5rem)]">
+            <div className="flex flex-col md:flex-row h-[calc(100vh-8rem)]">
                 {/* Sol Panel */}
-                <div className="w-full md:w-80 lg:w-96 bg-white shadow-sm flex flex-col h-[45vh] md:h-full">
+                <div className="w-full md:w-80 lg:w-96 bg-white shadow-sm flex flex-col h-[45vh] md:h-full rounded-2xl">
                     {/* Üst Bar */}
                     <div className="border-b p-4 flex items-center justify-between">
                         <div className="flex items-center">
@@ -695,7 +695,7 @@ const ProfessionalRadiologyViewer = () => {
                 </div>
 
                 {/* Sağ Panel - Görüntü ve Detaylar */}
-                <div className="flex-1 bg-gray-100 p-4 h-[calc(50vh-2.5rem)] lg:h-full overflow-y-auto">
+                <div className="flex-1 bg-gray-100 p-4 h-[calc(50vh-2.5rem)] lg:h-full overflow-y-auto rounded-2xl">
                     {selectedImage ? (
                         <div className="h-full flex flex-col lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0">
                             {/* Görüntü Alanı */}
