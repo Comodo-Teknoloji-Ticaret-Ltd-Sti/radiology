@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/radiology/static/css/main.7a40ecec.css",
-    "main.js": "/radiology/static/js/main.88e372b9.js",
+    "main.js": "/radiology/static/js/main.6c54ec65.js",
     "static/js/498.5bef6b71.chunk.js": "/radiology/static/js/498.5bef6b71.chunk.js",
     "static/js/511.92062ee1.chunk.js": "/radiology/static/js/511.92062ee1.chunk.js",
     "static/js/198.f7b2fc64.chunk.js": "/radiology/static/js/198.f7b2fc64.chunk.js",
@@ -17,13 +17,13 @@
     "static/media/product5.jpg": "/radiology/static/media/product5.f4c5d8f991b753ca0fcc.jpg",
     "index.html": "/radiology/index.html",
     "main.7a40ecec.css.map": "/radiology/static/css/main.7a40ecec.css.map",
-    "main.88e372b9.js.map": "/radiology/static/js/main.88e372b9.js.map",
+    "main.6c54ec65.js.map": "/radiology/static/js/main.6c54ec65.js.map",
     "498.5bef6b71.chunk.js.map": "/radiology/static/js/498.5bef6b71.chunk.js.map",
     "511.92062ee1.chunk.js.map": "/radiology/static/js/511.92062ee1.chunk.js.map",
     "198.f7b2fc64.chunk.js.map": "/radiology/static/js/198.f7b2fc64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a40ecec.css",
-    "static/js/main.88e372b9.js"
+    "static/js/main.6c54ec65.js"
   ]
 }
