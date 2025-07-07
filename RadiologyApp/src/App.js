@@ -65,8 +65,8 @@ const App = () => {
 
               <Routes>
                 {/* dashboard  */}
-                <Route path="/" element={(<Anasayfa />)} />
-                <Route path="/anasayfa" element={(<Anasayfa />)} />
+                <Route path="/" element={(<Radyolog />)} />
+                <Route path="/anasayfa" element={(<Radyolog />)} />
 
                 {/* pages  */}
                 <Route path="/radyoloji1" element={<Radyo />} />

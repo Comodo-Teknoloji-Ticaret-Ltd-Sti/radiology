@@ -392,16 +392,16 @@ export const employeesGrid = [
     textAlign: 'Center' },
 ];
 export const links = [
-  {
-    title: 'Menü',
-    links: [
-      {
-        name: 'anasayfa',
-        icon: <FiShoppingBag />,
-        label: 'Anasayfa',
-      },
-    ],
-  },
+  // {
+  //   title: 'Menü',
+  //   links: [
+  //     {
+  //       name: 'anasayfa',
+  //       icon: <FiShoppingBag />,
+  //       label: 'Anasayfa',
+  //     },
+  //   ],
+  // },
   {
     title: 'Sayfalar',
     links: [
@@ -415,31 +415,31 @@ export const links = [
       },
     ],
   },
-  {
-    title: 'Araçlar',
-    links: [
-      {
-        name: 'takvim',
-        icon: <AiOutlineCalendar />,
-        label: 'Takvim',
-      },
-      {
-        name: 'notlar',
-        icon: <BsKanban />,
-        label: 'Notlarım',
-      },
-    ],
-  },
-  {
-    title: 'Grafikler',
-    links: [
-      {
-        name: 'kalori',
-        icon: <GiLouvrePyramid />,
-        label: 'Kalori Takibi',
-      },
-    ],
-  }
+  // {
+  //   title: 'Araçlar',
+  //   links: [
+  //     {
+  //       name: 'takvim',
+  //       icon: <AiOutlineCalendar />,
+  //       label: 'Takvim',
+  //     },
+  //     {
+  //       name: 'notlar',
+  //       icon: <BsKanban />,
+  //       label: 'Notlarım',
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: 'Grafikler',
+  //   links: [
+  //     {
+  //       name: 'kalori',
+  //       icon: <GiLouvrePyramid />,
+  //       label: 'Kalori Takibi',
+  //     },
+  //   ],
+  // }
 ];
 export const cartData = [
   {
@@ -770,8 +770,7 @@ export const ordersGrid = [
   { field: 'CustomerName',
     headerText: 'Customer Name',
     width: '150',
-    textAlign: 'Center',
-  },
+    textAlign: 'Center' },
   {
     field: 'TotalAmount',
     headerText: 'Total Amount',
