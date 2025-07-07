@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/radiology/static/css/main.01d07605.css",
-    "main.js": "/radiology/static/js/main.0403559f.js",
-    "static/js/498.5bef6b71.chunk.js": "/radiology/static/js/498.5bef6b71.chunk.js",
-    "static/js/511.92062ee1.chunk.js": "/radiology/static/js/511.92062ee1.chunk.js",
-    "static/js/198.f7b2fc64.chunk.js": "/radiology/static/js/198.f7b2fc64.chunk.js",
+    "main.css": "/radiology/static/css/main.9c09992e.css",
+    "main.js": "/radiology/static/js/main.5fa3543f.js",
+    "static/js/498.5ce7199f.chunk.js": "/radiology/static/js/498.5ce7199f.chunk.js",
+    "static/js/404.677b013f.chunk.js": "/radiology/static/js/404.677b013f.chunk.js",
+    "static/js/379.d0d7046d.chunk.js": "/radiology/static/js/379.d0d7046d.chunk.js",
     "static/media/product4.jpg": "/radiology/static/media/product4.767417bea17688d6d8ce.jpg",
     "static/media/avatar3.png": "/radiology/static/media/avatar3.013c6cf3e081328c4626.png",
     "static/media/avatar2.jpg": "/radiology/static/media/avatar2.40d668f58c650e364281.jpg",
@@ -14,14 +14,14 @@
     "static/media/avatar4.jpg": "/radiology/static/media/avatar4.f56b774f77caaf2f6921.jpg",
     "static/media/product5.jpg": "/radiology/static/media/product5.f4c5d8f991b753ca0fcc.jpg",
     "index.html": "/radiology/index.html",
-    "main.01d07605.css.map": "/radiology/static/css/main.01d07605.css.map",
-    "main.0403559f.js.map": "/radiology/static/js/main.0403559f.js.map",
-    "498.5bef6b71.chunk.js.map": "/radiology/static/js/498.5bef6b71.chunk.js.map",
-    "511.92062ee1.chunk.js.map": "/radiology/static/js/511.92062ee1.chunk.js.map",
-    "198.f7b2fc64.chunk.js.map": "/radiology/static/js/198.f7b2fc64.chunk.js.map"
+    "main.9c09992e.css.map": "/radiology/static/css/main.9c09992e.css.map",
+    "main.5fa3543f.js.map": "/radiology/static/js/main.5fa3543f.js.map",
+    "498.5ce7199f.chunk.js.map": "/radiology/static/js/498.5ce7199f.chunk.js.map",
+    "404.677b013f.chunk.js.map": "/radiology/static/js/404.677b013f.chunk.js.map",
+    "379.d0d7046d.chunk.js.map": "/radiology/static/js/379.d0d7046d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01d07605.css",
-    "static/js/main.0403559f.js"
+    "static/css/main.9c09992e.css",
+    "static/js/main.5fa3543f.js"
   ]
 }
