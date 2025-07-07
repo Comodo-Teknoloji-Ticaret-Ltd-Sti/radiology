@@ -5,6 +5,7 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import { Anasayfa, Calendar, Pyramid, Kanban, Radyo, Radyolog } from './pages';
+import SimpleImageViewer from './pages/foto_simple';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -65,16 +66,16 @@ const App = () => {
 
               <Routes>
                 {/* dashboard  */}
-                <Route path="/" element={(<Radyolog />)} />
-                <Route path="/anasayfa" element={(<Radyolog />)} />
+                <Route path="/" element={<Radyolog />} />
+                <Route path="/anasayfa" element={<Radyolog />} />
 
-                {/* pages  */}
+                {/* pages  */}                
                 <Route path="/radyoloji1" element={<Radyo />} />
                 <Route path="/radyoloji2" element={<Radyolog />} />
                 {/* apps  */}
-                <Route path="/notlar" element={<Kanban />} />
+                {/* <Route path="/notlar" element={<Kanban />} />
                 <Route path="/takvim" element={<Calendar />} />
-                <Route path="/kalori" element={<Pyramid />} />
+                <Route path="/kalori" element={<Pyramid />} /> */}
 
               </Routes>
             </div>
